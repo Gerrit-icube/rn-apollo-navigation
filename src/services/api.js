@@ -1,6 +1,6 @@
 import ApolloClient from 'apollo-boost';
 import { InMemoryCache } from 'apollo-cache-inmemory';
-import { mutations } from './mutations';
+import { mutations } from './resolvers';
 
 const cache = new InMemoryCache();
 
